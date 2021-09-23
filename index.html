@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+    <title>Proiect newsletter</title>
+</head>
+<body>
+
+    <form action="/"  method="get">
+    <h1>THE CODE REVIEW</h1>
+    <h2>Sign up for our newsletter</h2>
+    <p id="p1">Get the latest news on how your code is doing right in your inbox</p>
+ 
+    <fieldset class="contact">
+    <legend>Contact Information</legend>
+    <label for="full-name">Full Name</label>
+    <input type="text" id="full-name" name="full-name" value="required">
+
+    <label for="name">Email Address</label>
+    <input type="email" id="email" name="user_email" value="required">
+
+    <label for="name">Phone Number</label>
+    <input type="phone" id="phone" name="phone_number">
+
+    <label for="name">Street Address</label>
+    <input type="address" id="address" name="address">
+
+    <label for="name">City</label>
+    <input type="city" id="city" name="city">
+
+    <label for="state">State</label>
+    <select id="state" name="state">
+        <optgroup label="Choose State">
+         <option value="romania">Romania</option>
+         <option value="spania">Spania</option>
+         <option value="uk">Marea Britanie</option>
+         <option value="italia">Italia</option>
+         <option value="franta">Franta</option>
+         <option value="germania">Germania</option>
+         <option value="grecia">Grecia</option>
+         <option value="austria">Austria</option>
+
+        </optgroup>
+    </select>
+    <label for="name">Zip Code</label>
+    <input type="zipcode" id="zipcode" name="zipcode">
+
+
+
+    </fieldset>
+
+    <fieldset class="fieldset_nws">
+        <legend class="legend_nws">Newsletter</legend>
+        <p>Select the newsletter you would like to receive</p>
+
+       
+        <input type="radio" id="html_news"  value="html_news" name="html_news"><label for="html_news" class="newsletter-type">HTML News</label><br>
+        <input type="radio" id="css_news"  value="css_news" name="css_news"><label for="css_news" class="newsletter-type">CSS News</label><br>
+        <input type="radio" id="javascript_news"  value="javascript_news" name="javascript_news"><label for="javascript_news" class="newsletter-type">Javascript News</label><br>
+
+        <p>Newsletter format</p>
+
+        <input type="radio" id="html"  value="html" name="html"><label for="html" class="newsletter-format">HTML</label><br>
+        <input type="radio" id="plaintext"  value="plaintext" name="plaintext"><label for="plaintext" class="newsletter-format">Plain text</label><br>
+
+
+        
+        <label for="others">Other topics you'd like to hear about</label>
+        <textarea id="others" name="other topics"></textarea>
+
+
+
+    </fieldset>
+    
+    <button type="submit">Sign Up</button>
+    
+
+   
+    
+    </form>
+
+    <footer>
+
+        <p>Copyright The Code Reviewer</p>
+    
+    </footer>
+    
+</body>
+</html>

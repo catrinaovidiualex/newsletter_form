@@ -1,0 +1,133 @@
+h1{
+    text-align: center;
+    color:white;
+    background-color: #2d3945;
+    width:90%;
+    text-align: center;
+    margin:auto;
+    margin-top:10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+h2{
+    text-align: center;
+    width:90%;
+    text-align: center;
+    margin:auto;
+    margin-top:10px;
+    padding: 10px;
+    font-size: 17px;
+    color:#545b64;
+}
+
+#p1{
+    text-align: center;
+    color:#545b64;
+    width:95%;
+    text-align: center;
+    margin:auto;
+    
+    padding: 10px;
+    font-size: 17px;
+    border-bottom: 8px double black;
+}
+
+
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width:90%;
+    padding: 10px;
+    border:none;
+}
+legend{
+     padding:10px;
+     margin-top:20px;
+     color:#545b64;
+     font-weight: bold;
+     font-size: 20px;
+}
+
+
+#full-name,#email,#phone,#address,#city,#state,#zipcode{
+    border:none;
+    background-color: #eff0f2;
+    height:25px;
+    
+}
+
+input#full-name{
+    color:#c5c6c7;
+    text-align: right;
+}
+
+input#email{
+    color:#c5c6c7;
+    text-align: right;
+}
+
+label{
+    color:#545b64;
+    padding:5px;
+}
+
+select#state{
+    color:#979899;
+}
+
+.legend_nws{
+    border-top:4px solid black;
+    width:100%;
+}
+
+p {
+    color:#545b64;
+}
+
+.fieldset_nws{
+display:inline-block;
+
+}
+
+
+#plaintext{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#others{
+   margin-top:25px;
+   width:95%;
+   height: 70px;
+}
+
+textarea#others{
+    background-color: #eff0f2;
+}
+
+button{
+    background-color:#4ebbb5;
+    padding:5px;
+    margin-left:5px;
+    border:none;
+    width:95%;
+    height: 50px;
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 13px;
+}
+
+
+
+
+
+
